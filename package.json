@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "lodash": "^0.1.0",
-    "moment": "^1.1.0"
+    "moment": "^1.1.0",
+    "sequelize": "^6.1.0"
   }
 }
