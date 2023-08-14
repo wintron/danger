@@ -15,6 +15,11 @@ jobs:
         echo "$GITHUB_CONTEXT"
     - name: Checkout
       uses: actions/checkout@v2
+    - name: Setup
+      uses: actions/setup-node@v3
+      with:
+         node-version: '18.x'
+    - run: npm ci
     - name: Hello World
       run: |
         echo "Hello World"
