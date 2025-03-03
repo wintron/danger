@@ -19,5 +19,5 @@
     "pino": "^1.0.0",
     "sequelize": "^6.1.0",
     "@snyk/protect": "latest"
-  }
+  },
 }
