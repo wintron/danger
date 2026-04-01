@@ -12,12 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@snyk/protect": "latest",
     "axios": "^0.21.1",
     "handlebars": "^1.0.6",
     "lodash": "3.10.1",
     "moment": "^1.1.0",
     "pino": "^1.0.0",
-    "sequelize": "^6.1.0",
-    "@snyk/protect": "latest"
+    "sequelize": "^6.37.8"
   }
 }
